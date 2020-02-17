@@ -31,7 +31,7 @@
                             <li><a href="#" @click="loadData">Load Data</a></li>                            
                         </ul>
                     </li>
-                    <router-link to="/registration" activeClass="active" tag="li"><a>Sign Up</a></router-link>
+                    <router-link to="/signin" activeClass="active" tag="li"><a>Sign Up</a></router-link>
                     <router-link to="/login" activeClass="active" tag="li"><a>Log In</a></router-link>                
                 </ul>
             </div> 
