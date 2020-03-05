@@ -1,0 +1,30 @@
+import Vue from "vue";
+import VueRouter from "vue-router";
+import VueResorce from "vue-resource";
+
+import App from "./App.vue";
+import { routes } from "./routes";
+import store from "./store/store";
+import { createProvider } from './vue-apollo'
+
+Vue.use(VueRouter);
+Vue.use(VueResorce);
+
+Vue.http.options.root = "https://vue-js-stock-trader-8cd24.firebaseio.com/";
+
+Vue.filter("currency", value => {
+  return "$" + value.toLocaleString();
+});
+
+const router = new VueRouter({
+  mode: "history",
+  routes
+});
+
+new Vue({
+  el: "#app",
+  router: router,
+  store,
+  apolloProvider: createProvider(),
+  render: h => h(App)
+});
