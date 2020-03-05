@@ -1,0 +1,29 @@
+mern - mongo db , express, react, node
+
+mean - nvend r - a - angluar
+
+express.js osht framework i node.js per me i shkru api-jat
+
+
+GRAPHQL 
+Zakonisht e krijojna ni follder n'damas prej frontendit - edhe 
+brenda ni follderit qe e  krijojna i shenojna konfigurimet per me kriju ni graphql
+
+npm init
+
+edhe procedorat tjera ne foton: to start graphql
+
+2 follerat qe i krijojna 
+- schema - kjo i permban tipet queryt 
+
+- resolvers -  ktu i shenojm kejt getat postat qe i shenojm edhe tek schema-t 
+
+1 file 
+- me emrin index.js - ktu veq i importojna qato file qka i krijojm brenda follderav resolvers edhe schema
+                                      - poashtu ktu e shenojm required expres, apolloserverin  edhe portin se ku ka me fillu 
+
+npm start e startojm projektin 
+
+
+ 
+

@@ -1,0 +1,11 @@
+mutation{
+  addPost(postInput: {
+    id: 4,
+    title: "Ubt",
+    description: "U hap perseri"
+  }){
+    id
+    title
+    description
+  }
+}
